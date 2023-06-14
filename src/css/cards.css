@@ -1,0 +1,116 @@
+.content_cards{
+    
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-color: var(--enfasis);
+    border-top-style: solid;
+    border-top-width: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 80px 1px rgb(44, 44, 44);
+}
+.card_gigant{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--text);
+}
+.card_gigant .imagen{
+    width: 50%;
+    margin: 10px;
+}
+.card_gigant .imagen img{
+    width: 100%;
+}
+.card_gigant .descripcion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: 5%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+}
+ .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.cards{
+    margin: 20px;
+    padding-bottom: 10px;
+    width: 200px;
+    
+    background-color: var(--primary);
+    border-radius: 10px;
+    transition: all .4s linear;
+    
+}
+.nombre{
+    text-align: center;
+}
+.cards .imagen{
+    width: 100%;
+    margin: auto;
+}
+.cards .imagen img{
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cards .descripcion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: var(--text);
+    
+}
+.tarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards:hover{
+    position:unset;
+    transform: scale(1.15);
+    box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+@media only screen and (max-width: 576px) {
+    .content-body{
+        margin-top: -200px;
+    }
+    .card_gigant{
+        width: 100%;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .card_gigant .descripcion{
+        width: 100%;
+    }
+    .card_gigant .descripcion .title{
+        font-size: 10px;
+        
+    }
+    .card_gigant .imagen{
+        width: 93%;
+    }
+}

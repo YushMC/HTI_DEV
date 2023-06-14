@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTI - Inicio</title>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/cabecera.css">
+    <link rel="stylesheet" href="src/css/temas.css">
+    <link rel="stylesheet" href="src/css/pop-up.css">
+    <link rel="stylesheet" href="src/css/cards.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <script src="https://kit.fontawesome.com/69bbe484d6.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <header>
+        <div class="logo">
+            <img src="assets/gui/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a><hr id="selected"></li>
+                    <li><a href="productos.html"><i class="fa-solid fa-store"></i> Productos</a><hr></li>
+                    <li><a href="acerca-de.html"><i class="fa-solid fa-circle-info"></i> Sobre Nosotros</a><hr></li>
+                    <li><a href="#modal"><i class="fa-solid fa-brush"></i> Temas</a><hr></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-alll-modal" id="modal">
+        <div class="popup">
+            <div class="img">
+
+            </div>
+            <div class="container-text">
+                <h3>Selecciona un color</h3>
+                <div class="chibis">
+                    <div class="color">
+                        <button id="color-verde" onclick="colorSeleccionado('Verde')"><img src="assets/gui/verde.png"></button>
+                    </div>
+                    <div class="color">
+                        <button id="color-rosa" onclick="colorSeleccionado('Rosa')"><img src="assets/gui/rosa.png"></button>
+                    </div>
+                    <div class="color">
+                        <button id="color-azul" onclick="colorSeleccionado('Azul')"><img src="assets/gui/azul.png"></button>
+                    </div>
+                    <div class="color">
+                        <button id="color-morado" onclick="colorSeleccionado('Morado')"><img src="assets/gui/morado.png"></button>
+                    </div>
+                    
+                </div>
+                <div class="modo-oscuro">
+                    <p>
+                    Selecciona el color de fondo 
+                    <br>
+                    <label class="switch-modos">
+                        <input type="checkbox" id="swicth-mode" checked>
+                        <span class="slider1"></span>
+                    </label>
+                </p>
+                </div>
+            </div>
+            <a href="index.html" class="btn-close-popup">X</a>
+        </div>
+    </div>
+
+
+
+    <div class="portada">
+        <img src="assets/gui/fondo-inicio.jpg" alt="">
+    </div>
+    
+        <div class="content_cards">
+            <div class="card_gigant">
+                
+                <div class="descripcion">
+                    
+                    <div class="title">
+                        <h1>Hilos Textiles de Importación</h1>
+                    </div>
+                    
+                    <div class="text">
+                        <p>
+                            Hilos y Telas de Importación somos una empresa 100% mexicana. <br>Con 10 años en el mercado especializado en venta de hilos para la confección textil.<br>
+                            Con participación en el mercado nacional e internacional, llegando a Colombia y Guatemala.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="assets/gui/fondo-inicio.jpg" alt="" srcset="">
+                </div>
+                <div class="botones">
+
+                </div>
+
+            </div>
+            
+            
+        </div>
+        <div class="content_cards" style="background:  rgba(255,255,255, 0.5);">
+            <h1 style="text-align: center;">Productos</h1>
+            <div class="tarjetas">
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/productos/acrilico.webp" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                                <h4>Acrílico</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/productos/viscosas.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                            <h4>Viscosa</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/productos/pelos-de-gato.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                            <h4>Pelo de Gato</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/productos/apolo.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                            <h4>Licra Apolo</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/gui/img-no-disponible.webp" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                            <h4>Poland</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/gui/img-no-disponible.webp" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                            <h4>Chenille</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/gui/img-no-disponible.webp" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                            <h4>Hilo Lana</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/gui/img-no-disponible.webp" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <div class="nombre">
+                            <h4>Slub Grueso</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imagen">
+                        <img src="assets/gui/img-no-disponible.webp" alt="">
+                    </div>
+                    <div class="descripcion">
+                       
+                            <h4>Macuco</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        
+    </div>
+    <footer>
+        <div class="content_footer">
+            <div class="arriba">
+                <div class="logo">
+                    <img src="assets/gui/logo.png" alt="">
+                </div>
+                
+                    <div class="contenido">
+                        <h3><i class="fa-solid fa-location-dot"></i> Dirección</h3>
+                        <p>Corregidora No. 108, Col. Centro, Cuautepec de Hinojosa, Hidalgo CP43740</p>
+                    </div>
+                    <div class="contenido">
+                        <h3><i class="fa-solid fa-phone"></i> Teléfono</h3>
+                        <p>775 75 41816</p>
+                    </div>
+                    <div class="contenido">
+                        <h3><i class="fa-solid fa-envelope"></i> Correo Electrónico</h3>
+                        <p></p>
+                    </div>
+                
+            </div>
+            <div class="abajo">
+                <p>@HTI 2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="src/js/modo-oscuro.js"></script>
+</html>
